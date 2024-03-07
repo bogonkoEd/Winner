@@ -85,7 +85,7 @@ const FeaturedComponent = () => {
   return (
     <div>
       <h1 className="text-xl font-semibold">Featured items</h1>
-      <div className="scroll-container overflow-x-auto">
+      <div className="scroll-container overflow-x-auto scroll-width-none">
         <ul className="flex list-none">
           {items.map((item, index) => (
             <li key={index}>

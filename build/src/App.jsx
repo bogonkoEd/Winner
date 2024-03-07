@@ -12,8 +12,8 @@ function App() {
   return(
     <div className='m-2'>
       <Navbar />
-      <Hero />
-      {/* <Store /> */}
+      {/* <Hero /> */}
+      <Store />
       <Footer /> 
       {/* <OrderItem /> */}
     </div>
